@@ -1,0 +1,66 @@
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Entornos y cachés de Python
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/*.py[cod]
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Datos de ejecución y posibles datos personales
+**/data/
+**/logs/
+**/output/
+**/tmp/
+**/*.sqlite3
+**/*.db
+**/*.journal
+**/*.lock
+**/*.ndjson
+**/*.pdb
+
+# Paquetes y runtimes generados localmente
+**/runtime/
+**/build/
+**/wheelhouse/
+**/wheelhouse-desktop/
+**/*.zip
+**/*.7z
+**/*.rar
+
+# Copias y duplicados de trabajo
+CAFI_MVP 2/
+.build/
+.codex-finalizer/
+.codex-finalizer-*/
+
+# Salidas intermedias de renderizado y herramientas
+**/.playwright-cli/
+**/*.inspect.json
+**/*.inspect.ndjson
+**/page-*.png
+**/slide-*.png
+
+# Interfaz web y módulos heredados: el punto de entrada operativo es nativo
+CAFI_MVP/ui/
+CAFI_MVP/server.py
+CAFI_MVP/cafi_bot.py
+CAFI_MVP/tools/node_modules
+CAFI_MVP/LEEME_WINDOWS*.html
+
+# Archivos locales de secretos
+**/.env
+**/.env.*
+!.env.example
+**/*credentials*.json
+**/*secrets*.json
+**/*token*.json
+
+# Permite mantener una carpeta vacía documentada si se necesita
+!.gitkeep
